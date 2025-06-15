@@ -71,16 +71,22 @@ Preliminary results (subject to final execution):
 ==================================================
 === None 的最終評估 (在所有任務訓練後) ===
 ==================================================
+
 最終 seg 評估: Val Loss=9655173.6000, mIoU=0.0285
+
 最終 det 評估: Val Loss=18953.2785, mAP=0.0009
+
 最終 cls 評估: Val Loss=9.9297, Top-1=0.2833, Top-5=0.7000
 ![image](https://github.com/user-attachments/assets/b84d8e72-8d82-435b-b0f5-a78ec3e1c373)
 
 ==================================================
 === EWC 的最終評估 (在所有任務訓練後) ===
 ==================================================
+
 最終 seg 評估: Val Loss=8876781.1500, mIoU=0.0363
+
 最終 det 評估: Val Loss=13045.0146, mAP=0.0000
+
 最終 cls 評估: Val Loss=9.7886, Top-1=0.2333, Top-5=0.6500
 ![image](https://github.com/user-attachments/assets/4339df74-d3df-4ed1-bb19-3d928bdc478e)
 
@@ -95,9 +101,12 @@ Preliminary results (subject to final execution):
 ==================================================
 === KD 的最終評估 (在所有任務訓練後) ===
 ==================================================
-最終 seg 評估: Val Loss=1434991.0792, mIoU=0.0850
-最終 det 評估: Val Loss=17033.3214, mAP=0.0001
-最終 cls 評估: Val Loss=9.9879, Top-1=0.1833, Top-5=0.4500
+
+最終 seg 評估: Val Loss=1507178.0250, mIoU=0.0949
+
+最終 det 評估: Val Loss=15450.6602, mAP=0.0001
+
+最終 cls 評估: Val Loss=8.5061, Top-1=0.2000, Top-5=0.7500
 ![image](https://github.com/user-attachments/assets/859c9a9c-3d54-4879-bbc5-863a5859a7cf)
 
 
