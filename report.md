@@ -38,15 +38,19 @@ Total parameter count is approximately 4.1M(Total parameters: 4,175,137), adheri
 
 ### 3. Catastrophic Forgetting Mitigation
 **Elastic Weight Consolidation (EWC)**
+
 通過計算 Fisher Information 來保護先前任務的重要參數，有助於減少遺忘狀況，適合參數量較大且需要精細調優的任務。
 
 **Learning without Forgetting (LwF)**
+
 使用先前模型作為教師模型，通過 KL 散度限制新任務對舊任務輸出的影響，適合輸出形式相似的任務。
 
 **Replay Buffer**
+
 通過重播、重訓練先前任務的少量數據，對小型數據集有效。
 
 **Knowledge Distillation (KD)**
+
 使用先前模型的軟標籤（soft targets）指導新模型訓練，能有效保留先前知識，特別適合分類任務。
 
 Catastrophic forgetting is addressed using Knowledge Distillation (KD), applied post-first stage. The KD loss is defined as:
